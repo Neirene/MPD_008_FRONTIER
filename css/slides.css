@@ -1,0 +1,822 @@
+
+/** SECTIONS  *******************************/
+
+#header {
+
+}
+
+.unrendered-bg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-image: url('../img/render01bg.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+
+.mobile-bg {
+
+}
+
+.video-top {
+    width: 100%;
+    position: absolute;
+    height:100%;
+    opacity:0;
+    -webkit-transition: 2.5s;
+    -moz-transition: 2.5s;
+    transition: 2.5s;
+    -o-transition: 2.5s;
+}
+
+.show-video {
+    display:block;
+    opacity:1;
+}
+
+
+.logo-top {
+    position: absolute;
+    float: left;
+    top: 30px;
+    width: 100%;
+    height: 140px;
+
+}
+
+.sebina-bio {
+    position: absolute;
+    top: -150px;
+    left: 100px;
+    font-family: sans-serif;
+    text-align: right;
+    font-size: 23px;
+    font-style: italic;
+    color: rgb(255, 240, 213);
+    
+}
+
+.frontier-logo {
+        background-image: url('../img/frontierLogo.png');
+    
+        /* background-size: contain; */
+    background-repeat:no-repeat;
+    position:absolute;
+    
+        background-position: 40% 60%;
+        background-size: 100%;
+        top: -27px;
+    
+        right: 2%;
+    
+        -webkit-filter: sepia(1);
+        -moz-filter:sepia(1);
+        width: 550px;
+    
+        height: 280px;
+
+
+        font-style: italic;
+        font-size: 70px;
+        line-height: 55px;
+        color: wheat;
+}
+
+.lineage-logo {
+    background-image: url('../img/L2_logo_white.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:0px;
+    left: 60px;
+    width:400px;
+    height: 60px;
+
+
+}
+
+.ornament-container {
+    background-image: url('../img/window_ornament.png');
+
+    background-repeat: no-repeat;
+    background-position: -122px center;
+    width: 550px;
+    height: 60px;
+    position: absolute;
+    right: 4%;
+    top: 13px;
+    -webkit-filter: sepia(1);
+    /* -webkit-filter: blur(0.7px); */
+    display: none;
+}
+
+
+.main-sections-links {
+
+    width: 100%;
+    height: 140px;
+    
+
+    position: absolute;
+    float: left;
+    text-align: center;
+
+    bottom: 0px;
+
+}
+
+.header-feature-links {
+    margin-left: auto;
+
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.header-feature-links li {
+    display: inline;
+
+    font-family: 'Cinzel',sans-serif;
+    text-transform: capitalize;
+    font-size: 26px;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.header-feature-links a {
+    color: inherit;
+
+    text-decoration: none;
+}
+
+.header-feature-links a:hover {
+
+}
+
+.main-news-container {
+    width: 50%;
+
+    float: right;
+    margin-left: 50%;
+    height: 60%;
+    top: 170px;
+    position: absolute;
+}
+
+
+.interface-bt-container {
+    width: 550px;
+    background-color: rgba(245, 222, 179, 0.93);
+    float: right;
+    margin-right: 4%;
+    margin-top: 74px;
+    font-family: 'Cinzel' ,sans-serif;
+    color: black;
+    padding: 1%;
+    cursor: pointer;
+}
+
+
+.interface-list {
+
+}
+
+.interface-list li {
+    display: block;
+
+    color: black;
+    background-color: wheat;
+    font-family: 'Cinzel' sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    width: 267px;
+    cursor: pointer;
+    float: left;
+    -webkit-transition: 2.5s;
+    -moz-transition: 2.5s;
+    transition: 2.5s;
+    -o-transition: 2.5s;
+    box-shadow: 1px 1px 10px 1px wheat;
+}
+.interface-list li:first-child {
+margin-right: 15px;}
+
+.highlights-container {
+    margin-top: 21px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.63);
+    float: right;
+    margin-right: 4%;
+    height: 300px;
+    text-align: left;
+}
+
+.highlights-caption {
+    color: wheat;
+
+
+    text-transform: uppercase;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+
+.highlights-banners {
+    width: 550px;
+
+    height: 220px;
+    float: left;
+}
+
+.banner-promo {
+    width:100%;
+    height:200px;
+    background-color:wheat;
+}
+
+
+.news-container {
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.63);
+    float: right;
+    margin-right: 4%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.news-caption {
+
+    color: wheat;
+
+
+    text-transform: uppercase;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    
+
+    padding-bottom: 1px;
+
+}
+
+.news-area {
+    float: left;
+
+
+    width: 100%;
+}
+
+.news-list {
+
+}
+
+.news-list li {
+
+    font-family: sans-serif;
+    
+
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+    
+
+    margin: 10px;
+
+    padding-top: 6px;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************ABOUT*/
+
+#about {
+
+}
+
+.about-slide-01 {
+    width: 100%;
+    height: 100%;
+        -webkit-transition: 2.5s;
+    -moz-transition: 2.5s;
+    transition: 2.5s;
+    -o-transition: 2.5s;
+}
+
+.about-bg1 {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0.7;
+        background-position: 50% 100%;
+    background-size: cover;
+        width: 100%;
+    height: 100%;
+        background-image: url('../img/sbg01.jpg');
+    -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+-webkit-box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+}
+
+.about-slide-02 {
+    width: 100%;
+    height: 100%;
+        -webkit-transition: 2.5s;
+    -moz-transition: 2.5s;
+    transition: 2.5s;
+    -o-transition: 2.5s;
+}
+
+.about-bg2 {
+    position:absolute;
+    top:0px;
+    left:0px;
+        background-position: 50% 100%;
+    background-size: cover;
+        width: 100%;
+    height: 100%;
+        background-image: url('../img/sbg02.jpg');
+      -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+-webkit-box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+}
+
+.disable-slide {
+    display:none;
+}
+
+.slide-control-arrow {
+
+            width: 100px;
+            padding-top: 120px;
+            height: 120px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            color: grey;
+            -webkit-filter: brightness(2);
+            background-size: cover;
+            font-family: 'Cinzel', sans-serif;
+            margin:5px;
+            font-size:12px;
+            text-transform:uppercase;
+}
+
+
+.slide-arrow-placeholder {
+                height: 120px;
+                            width: 100px;
+}
+
+.nextSlideAbout {
+                background-image: url('../img/slidearrow.png');
+}
+
+.prevSlideAbout {
+                background-image: url('../img/slidearrow2.png');
+}
+
+#pvp {
+
+}
+
+
+.pvp-bg {
+    position:absolute;
+    top: -1527px;
+    left:0px;
+        
+    background-position: 50% 100%;
+    background-size: cover;
+        width: 100%;
+    height: 2616px;
+        background-image: url('../img/adenmap.jpg');
+      
+    -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+-webkit-box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 126px 6px rgba(0,0,0,1);
+    overflow: hidden;
+    opacity:0.8;
+
+}
+
+
+.scroll-pvp-bg {
+top: -147px;
+
+    -webkit-transition: 4s;
+    -moz-transition: 4s;
+    transition: 4s;
+    -o-transition: 4s;
+}
+
+
+.map-point {
+    display: block;
+    background-color: rgb(194, 94, 94);
+    border: 5px solid rgba(255, 255, 255, 0.54);
+    width: 270px;
+    border-radius: 210px;
+    height: 270px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.hidden-point {
+    width:10px;
+    height:10px;
+    opacity:0;
+}
+
+.pvp-pic-container01 {
+    background-image: url('../img/pvppic01.png');
+    width: 710px;
+    height: 450px;
+    background-size: contain;
+    background-position: 30% 100%;
+    background-repeat: no-repeat;
+    margin: -100%;
+    /* box-shadow: 1px 1px 60px 1px wheat; */
+    margin-top: -65%;
+    /* border-radius: 20px; */
+}
+
+.pvp-pic-container02 {
+    background-image: url('../img/pvppic02.jpg');
+}
+
+
+/******OLYS*/
+
+.oly-bg {
+    background-image: url('../img/olybg01.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 100%;
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0.8;
+
+}
+
+.oly-char01{
+    background-image: url('../img/delfbladedancer.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 20%;
+    position:absolute;
+    width: 100%;
+    height:100%;
+
+    opacity: 0.3;
+
+    display: none;
+}
+
+.oly-challengers01 {
+        background-image: url('../img/olychars01.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 20%;
+    position:absolute;
+    width: 100%;
+    height:100%;
+        left: -370px;
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        opacity: 0.6;
+}
+
+.oly-challengers02 {
+        background-image: url('../img/olychars02.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 20%;
+    position:absolute;
+    width: 100%;
+    height:100%;
+
+        right: 570px;
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        opacity: 0.6;
+        display: none;
+}
+
+
+
+/***URAWAZA*/
+
+
+.bg-ura {
+    background-image: url('../img/deskbg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 100%;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.polaroid-photo {
+    background-color: rgb(255, 250, 227);
+
+
+    width: 480px;
+    height: 520px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.44);
+    overflow: hidden;
+    transform: rotate(160deg);
+    opacity: 0;
+}
+
+.photo-frame {
+    
+    background-size:cover;
+    background-position: 40% 90%;
+    background-size: 130%;
+    width: 438px;
+    height: 370px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.show-pic01 {
+    opacity: 1;
+
+    transform: rotate(-20deg);
+    top: 50%;
+    left: 10%;
+}
+
+.show-pic02 {
+    opacity: 1;
+
+    transform: rotate(10deg);
+    top: 23%;
+}
+
+.show-pic03 {
+    opacity: 1;
+
+    transform: rotate(38deg);
+    left: 15%;
+}
+
+.pic01 {
+    background-image: url('../img/polaroidpics/01.jpg');
+}
+
+.pic02 {
+    background-image: url('../img/polaroidpics/02.jpg');
+}
+
+.pic03 {
+    background-image: url('../img/polaroidpics/03.jpg');
+}
+
+.dummy-placeholder {
+    width: 450px;
+
+    height: 200px;
+}
+
+
+
+
+/******FEATURES*/
+
+.bg-features {
+    background-image: url('../img/featurebg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 100%;
+    position:absolute;
+    width:100%;
+    height:100%;
+    -webkit-filter: hue-rotate(-10deg);
+    -moz-filter: hue-rotate(-10deg);
+}
+
+.features-list {
+    font: 20px/26px "CartoGothicProBook", sans-serif;
+
+}
+
+.features-list li {
+    background-color: rgba(0, 0, 0, 0.38);
+
+    margin: 4px;
+    border-radius: 5px;
+}
+
+
+/*****FOOTER*/
+
+.bg-footer {
+    background-image: url('../img/footerbg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 30%;
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity: 0.3;
+}
+
+.footer-info {
+    position: absolute;
+
+    bottom: 0px;
+    margin-bottom: 20px;
+    font: 15px/24px "CartoGothicProBook", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-billboards {
+    background-image: url('../img/sponsorbg.png');
+
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 113px;
+    background-position: 50% 100%;
+}
+
+.footer-quote {
+    font: 70px "Cinzel", sans-serif;
+
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    bottom: 30%;
+}
+
+.footer-next {
+
+}
+
+.goddess-logo {
+    width: 860px;
+
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../img/L2_GD_logo_white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 5%;
+}
+
+.width-mod {
+
+}
+
+
+/******DOWNLOADS*/
+
+
+
+
+.download-menu-container{
+    width: 100%;
+
+    display:none;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.81);
+    z-index: 100000;
+}
+
+.menu-splash {
+    width: 100%;
+
+
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+            -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.hide-menu {
+    top:100%;
+
+}
+
+
+.close-splash {
+    position: absolute;
+
+    font: 16px/24px "CartoGothicProBook", sans-serif;
+    top: 2%;
+    right: 2%;
+    display: block;
+    padding: 1%;
+    color: rgb(255, 238, 204);
+    cursor: pointer;
+    z-index:1000000;
+}
+
+.dl-info-box {
+    width: 380px;
+
+    height: 430px;
+    margin-left: 6%;
+    position: absolute;
+    margin-top: -200px;
+    text-align: left;
+}
+
+.dl-info-box a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+
+.dl-info-caption {
+    width: 320px;
+
+    height: 32px;
+    margin-left: -192px;
+    border-bottom: 2px solid white;
+    transform: rotate(-90deg);
+    font-family: 'Cinzel',sans-serif;
+    font-size: 24px;
+    text-align: right;
+    margin-top: 150px;
+}
+
+.dl-info-ornament {
+    border-top: 2px solid white;
+
+    width: 40px;
+    transform: rotate(130deg);
+    margin-left: -24px;
+    margin-top: -192px;
+}
+
+.buttom-dl {
+    display: block;
+
+
+    background-color: wheat;
+    color: black;
+    font-family: 'Cinzel', sans-serif;
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+    cursor: pointer;
+}

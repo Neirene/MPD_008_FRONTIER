@@ -1,0 +1,719 @@
+/**SPECIAL SETTINGS FOR LOWER-END SCREENS*/
+
+
+@media (max-width: 1600px) {
+
+
+
+
+
+}
+
+@media (max-width: 1366px) {
+
+.interface-bt-container {
+    width: 550px;
+    background-color: rgba(245, 222, 179, 0.93);
+    float: right;
+    margin-right: 4%;
+    margin-top: 74px;
+    font-family: 'Cinzel' ,sans-serif;
+    color: black;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.news-container {
+    display:none;
+}
+
+    .frontier-logo {
+        background-image: url('../img/frontierLogo.png');
+    
+        /* background-size: contain; */
+    background-repeat:no-repeat;
+    position:absolute;
+    
+        background-position: 50% 23%;
+        background-size: 90%;
+        top: -57px;
+    
+        right: 2%;
+    
+        -webkit-filter: sepia(1);
+        -moz-filter:sepia(1);
+        width: 550px;
+    
+        height: 280px;
+
+
+        font-style: italic;
+        font-size: 70px;
+        line-height: 55px;
+        color: wheat;
+}
+
+.pvp-pic-container01 {
+    background-image: url('../img/pvppic01.png');
+    width: 520px;
+    height: 450px;
+    background-size: contain;
+    background-position: 30% 100%;
+    background-repeat: no-repeat;
+    margin: -49%;
+    /* box-shadow: 1px 1px 60px 1px wheat; */
+    margin-top: -65%;
+    /* border-radius: 20px; */
+}
+
+.center-contents {
+    width: 70%;
+    margin-right:auto;
+    margin-left:auto;
+
+
+}
+
+
+.dummy-placeholder {
+    width: 650px;
+
+    height: 200px;
+}
+
+
+.features-list {
+    font: 16px/20px "CartoGothicProBook", sans-serif;
+
+    margin-top: -5%;
+}
+
+.footer-info {
+    position: absolute;
+
+    bottom: 0px;
+    margin-bottom: 20px;
+    font: 13px/24px "CartoGothicProBook", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-billboards {
+    background-image: url('../img/sponsorbg.png');
+
+
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 113px;
+    background-position: 50% 100%;
+}
+
+
+.titles {
+    font: 60px "Cinzel", sans-serif;
+}
+
+
+
+.goddess-logo {
+    width: 750px;
+
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../img/L2_GD_logo_white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 9%;
+}
+}
+
+@media (max-width: 1280px) {
+
+
+
+
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  body {
+      color:white;
+  }
+
+  .news-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    float: right;
+    margin-right: 0%;
+    text-align: left;
+    margin-top: 0px;
+    border-top: 2px solid wheat;
+}
+
+.sebina-bio {
+    position: absolute;
+    top: -150px;
+    left: 100px;
+    font-family: sans-serif;
+    text-align: right;
+    font-size: 23px;
+    font-style: italic;
+    color: rgb(255, 240, 213);
+    display:none;
+    
+}
+
+.highlights-container {
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    float: right;
+    margin-right: 0px;
+    height: 276px;
+    text-align: left;
+}
+
+
+  .highlights-banners {
+    width: 100%;
+
+    height: 220px;
+    float: left;
+}
+
+
+  .unrendered-bg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-image: url('../img/render01bg.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:none;
+
+}
+
+.mobile-bg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-image: url('../img/render02bg.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+  .video-top {
+    width: 100%;
+    position: absolute;
+    height:100%;
+    opacity:0;
+    -webkit-transition: 2.5s;
+    -moz-transition: 2.5s;
+    transition: 2.5s;
+    -o-transition: 2.5s;
+    display: none;
+}
+
+  .lineage-logo {
+    background-image: url('../img/L2_logo_white.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:0px;
+    left: 60px;
+    width: 260px;
+    height: 60px;
+
+
+}
+
+.main-news-container {
+    width: 100%;
+
+    float: right;
+    margin-left: 0%;
+    height: 60%;
+    top: 180px;
+    position: absolute;
+}
+
+
+  .frontier-logo {
+        background-image: url('../img/frontierLogo.png');
+    
+        /* background-size: contain; */
+    background-repeat:no-repeat;
+    position:absolute;
+    
+        background-position: 40% 60%;
+        background-size: 100%;
+        top: -67px;
+    
+        right: 2%;
+    
+        -webkit-filter: sepia(1);
+        -moz-filter:sepia(1);
+        width: 350px;
+    
+        height: 280px;
+
+
+        font-style: italic;
+        font-size: 70px;
+        line-height: 55px;
+        color: wheat;
+}
+
+
+  .header-feature-links {
+    margin-left: auto;
+
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+    margin-top: 4%;
+    display: none;
+}
+
+  .slide-control-arrow {
+
+            width: 60px;
+            padding-top: 120px;
+            height: 120px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            color: grey;
+            -webkit-filter: brightness(2);
+            background-size: cover;
+            font-family: 'Cinzel', sans-serif;
+            margin:5px;
+            
+
+            font-size: 12px;
+            text-transform:uppercase;
+}
+
+  .slide-arrow-placeholder {
+                height: 120px;
+                            width: 100px;
+                            display:none;
+}
+
+  .pvp-pic-container01 {
+    background-image: url('../img/pvppic01.png');
+    width: 710px;
+    height: 450px;
+    background-size: contain;
+    background-position: 30% 100%;
+    background-repeat: no-repeat;
+    margin: -100%;
+    /* box-shadow: 1px 1px 60px 1px wheat; */
+    margin-top: -65%;
+    /* border-radius: 20px; */
+    display: none;
+}
+
+.dummy-placeholder {
+    width: 450px;
+
+    height: 200px;
+    display:none;
+}
+
+
+  .polaroid-photo {
+    background-color: rgb(255, 250, 227);
+
+
+    width: 480px;
+    height: 520px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.44);
+    overflow: hidden;
+    transform: rotate(160deg);
+    opacity: 0;
+}
+
+
+.features-list {
+    font: 12px "CartoGothicProBook", sans-serif;
+
+    margin-top: -10%;
+}
+
+.features-list li {
+    background-color: rgba(0, 0, 0, 0.38);
+
+    margin: 4px;
+    border-radius: 0px;
+}
+
+
+  .center-contents {
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+
+
+}
+
+  .titles {
+    font: 42px "Cinzel", sans-serif;
+}
+
+
+.goddess-logo {
+    width: 80%;
+
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../img/L2_GD_logo_white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.footer-billboards {
+    background-image: url('../img/sponsorbg.png');
+
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: 153px;
+    background-position: 50% 100%;
+    background-size: contain;
+}
+
+
+.footer-info {
+    position: absolute;
+
+    bottom: 0px;
+    margin-bottom: 20px;
+    font: 10px/24px "CartoGothicProBook", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+  .overlay-menu {
+    position:fixed;
+    z-index:10000;
+    width:100%;
+    margin-right: auto;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.49);
+    top:-100px;
+    font-family: 'Cinzel', sans-serif;
+    display: none;
+}
+
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  body {
+    color:white;
+  }
+
+#header {
+  
+}
+
+
+  #pvp {
+    height: 121%;
+    
+  }
+
+
+
+
+
+
+
+
+    .news-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    float: right;
+    margin-right: 0%;
+    text-align: left;
+    margin-top: 0px;
+    border-top: 2px solid wheat;
+}
+
+.sebina-bio {
+    position: absolute;
+    top: -150px;
+    left: 100px;
+    font-family: sans-serif;
+    text-align: right;
+    font-size: 23px;
+    font-style: italic;
+    color: rgb(255, 240, 213);
+    display:none;
+    
+}
+
+.highlights-container {
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    float: right;
+    margin-right: 0px;
+    height: 276px;
+    text-align: left;
+}
+
+
+  .highlights-banners {
+    width: 100%;
+
+    height: 220px;
+    float: left;
+}
+
+
+  .unrendered-bg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-image: url('../img/render01bg.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:none;
+
+}
+
+.mobile-bg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-image: url('../img/render02bg.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+  .video-top {
+    width: 100%;
+    position: absolute;
+    height:100%;
+    opacity:0;
+    -webkit-transition: 2.5s;
+    -moz-transition: 2.5s;
+    transition: 2.5s;
+    -o-transition: 2.5s;
+    display: none;
+}
+
+  .lineage-logo {
+    background-image: url('../img/L2_logo_white.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    position:absolute;
+    top: 41px;
+    left: 30px;
+    width: 260px;
+    height: 60px;
+
+
+}
+
+.main-news-container {
+    width: 100%;
+
+    float: right;
+    margin-left: 0%;
+    height: 60%;
+    top: 180px;
+    position: absolute;
+}
+
+
+  .frontier-logo {
+        background-image: url('../img/frontierLogo.png');
+    
+        /* background-size: contain; */
+    background-repeat:no-repeat;
+    position:absolute;
+    
+        background-position: 40% 60%;
+        background-size: 100%;
+        top: -87px;
+    
+        right: 2%;
+    
+        -webkit-filter: sepia(1);
+        -moz-filter:sepia(1);
+        width: 350px;
+    
+        height: 280px;
+
+
+        font-style: italic;
+        font-size: 70px;
+        line-height: 55px;
+        color: wheat;
+}
+
+
+  .header-feature-links {
+    margin-left: auto;
+
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+    margin-top: 4%;
+    display: none;
+}
+
+  .slide-control-arrow {
+
+            width: 60px;
+            padding-top: 120px;
+            height: 120px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            color: grey;
+            -webkit-filter: brightness(2);
+            background-size: cover;
+            font-family: 'Cinzel', sans-serif;
+            margin:5px;
+            
+
+            font-size: 12px;
+            text-transform:uppercase;
+}
+
+  .slide-arrow-placeholder {
+                height: 120px;
+                            width: 100px;
+                            display:none;
+}
+
+  .pvp-pic-container01 {
+    background-image: url('../img/pvppic01.png');
+    width: 710px;
+    height: 450px;
+    background-size: contain;
+    background-position: 30% 100%;
+    background-repeat: no-repeat;
+    margin: -100%;
+    /* box-shadow: 1px 1px 60px 1px wheat; */
+    margin-top: -65%;
+    /* border-radius: 20px; */
+    display: none;
+}
+
+.dummy-placeholder {
+    width: 450px;
+
+    height: 200px;
+    display:none;
+}
+
+
+  .polaroid-photo {
+    background-color: rgb(255, 250, 227);
+
+
+    width: 480px;
+    height: 520px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.44);
+    overflow: hidden;
+    transform: rotate(160deg);
+    opacity: 0;
+}
+
+
+.features-list {
+    font: 10px "CartoGothicProBook", sans-serif;
+
+    margin-top: -4%;
+}
+
+.features-list li {
+    background-color: rgba(0, 0, 0, 0.72);
+
+    margin: 0px;
+    border-radius: 0px;
+}
+
+
+  .center-contents {
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+
+
+}
+
+  .titles {
+    font: 35px "Cinzel", sans-serif;
+}
+
+
+.goddess-logo {
+    width: 50%;
+
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../img/L2_GD_logo_white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.footer-billboards {
+    background-image: url('../img/sponsorbg.png');
+
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: 40px;
+    background-position: 50% 100%;
+    background-size: contain;
+}
+
+
+.footer-info {
+    position: absolute;
+
+    bottom: 0px;
+    margin-bottom: 2px;
+    font: 9px/12px "CartoGothicProBook", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+  .overlay-menu {
+    position:fixed;
+    z-index:10000;
+    width:100%;
+    margin-right: auto;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.49);
+    top:-100px;
+    font-family: 'Cinzel', sans-serif;
+    display: none;
+}
+
+}
+
+
+

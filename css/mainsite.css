@@ -1,0 +1,197 @@
+/* GLOBALS *********************************/
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html, body {
+    /*min-width: 1024px;*/
+    /*min-height: 768px;*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #000;
+    color:white;
+}
+section {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    background-position: 50% 100%;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.overlay-menu {
+    position:fixed;
+    z-index:10000;
+    width:100%;
+    margin-right: auto;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.49);
+    top:-100px;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.overlay-menu-ornament {
+    background-image: url('../img/topmenu_ornament.png');
+    background-position: center center;
+    position: absolute;
+    bottom: -28px;
+    width: 100%;
+    height: 50px;
+    background-repeat: repeat-x;
+}
+
+.overlay-menu-overide {
+    margin-top:1%;
+}
+
+.overlay-menu-overide li {
+
+}
+
+.overlay-menu-overide a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+.show-menu {
+    top:0px;
+}
+
+
+.panel {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background-color:#000;
+
+}
+/*section:nth-child(2n+2) {background: #fff}*/ /* TEMP */
+
+a { outline: 0; }
+:focus {
+  -moz-outline-style: none;
+}
+p, span, table {
+    font: 15px/24px "CartoGothicProBook", sans-serif;
+}
+
+.titles {
+    font: 70px "Cinzel", sans-serif;
+}
+
+ul { margin: 0; padding: 0; list-style: none; }
+video { 
+    height: 100%;
+}
+
+
+.border-box {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.desaturate {
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.table { display: table; width: 100%; height: 100%; text-align: center; position: relative; z-index: 50; }
+.table-row { display: table-row; }
+.table-cell { display: table-cell; vertical-align: middle; }
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+* {
+-webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease;
+}
+.transparent-bg-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 15, 17, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+#db-container {
+    z-index: 500;
+}
+
+/** ALIGN SETTINGS *****************************/
+
+.center-contents {
+    width: 50%;
+    margin-right:auto;
+    margin-left:auto;
+
+
+}
+
+/** FONT LIBRARY ******************************/
+.lineageFont1 {
+    font-family: 'CartoGothicProBook',sans-serif;
+}
+
+.lineageFont2 {
+    font-family: 'CartoGothicProLight',sans-serif;
+}
+
+.lineageFont3 {
+    font-family: 'CartoGothicCapsBook',sans-serif;
+}
+
+.lineageFont4 {
+    font-family: 'AdelonBook',sans-serif;
+}
+
+.lineageFont5 {
+    font-family: 'AdelonMedium',sans-serif;
+}
+
+.lineageFont6 {
+    font-family: 'AdelonBold',sans-serif;
+}
+
+.lineageFont7 {
+    font-family: 'Cinzel',sans-serif;
+}
+
+
+/*****SLICK OVERIDES*/
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -18px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: right;
+}

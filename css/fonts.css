@@ -1,0 +1,70 @@
+﻿
+/***  Adelon Book  ***/
+@font-face {
+	font-family: 'AdelonBook';
+	src: url('../fonts/Adelon-Book-webfont.eot');
+	src: local('笘ｺ'), url('../fonts/Adelon-Book-webfont.woff') format('woff'), url('../fonts/Adelon-Book-webfont.ttf') format('truetype'), url('../fonts/Adelon-Book-webfont.svg#webfont7NUZb6JI') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/***  Adelon Medium  ***/
+@font-face {
+	font-family: 'AdelonMedium';
+	src: url('../fonts/Adelon-Medium-webfont.eot');
+	src: local('笘ｺ'), url('fonts/Adelon-Medium-webfont.woff') format('woff'), url('fonts/Adelon-Medium-webfont.ttf') format('truetype'), url('fonts/Adelon-Medium-webfont.svg#webfontEtNqJmif') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/***  Adelon Bold  ***/
+@font-face {
+	font-family: 'AdelonBold';
+	src: url('../fonts/Adelon-Bold-webfont.eot');
+	src: local('笘ｺ'), url('../fonts/Adelon-Bold-webfont.woff') format('woff'), url('../fonts/Adelon-Bold-webfont.ttf') format('truetype'), url('../fonts/Adelon-Bold-webfont.svg#webfontrHRKAga5') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/***  Carto Gothic Pro Book  ***/
+@font-face {
+	font-family: 'CartoGothicProBook';
+	src: url('../fonts/CartoGothicPro-Book-webfont.eot');
+	src: local('笘ｺ'), url('../fonts/CartoGothicPro-Book-webfont.woff') format('woff'), url('../fonts/CartoGothicPro-Book-webfont.ttf') format('truetype'), url('../fonts/CartoGothicPro-Book-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/***  Carto Gothic Pro Light  ***/
+@font-face {
+	font-family: 'CartoGothicProLight';
+	src: url('../fonts/CartoGothicPro-Light-webfont.eot');
+	src: local('笘ｺ'), url('../fonts/CartoGothicPro-Light-webfont.woff') format('woff'), url('../fonts/CartoGothicPro-Light-webfont.ttf') format('truetype'), url('../fonts/CartoGothicPro-Light-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/***  Carto Gothic Caps Book  ***/
+@font-face {
+	font-family: 'CartoGothicCapsBook';
+	src: url('../fonts/CartoGothicCaps-Book-webfont.eot');
+	src: local('笘ｺ'), url('../fonts/CartoGothicCaps-Book-webfont.woff') format('woff'), url('../fonts/CartoGothicCaps-Book-webfont.ttf') format('truetype'), url('../fonts/CartoGothicCaps-Book-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/** Cinzel Regular ***/
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel-Regular-webfont.eot');
+    src: url('../fonts/Cinzel-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Cinzel-Regular-webfont.woff') format('woff'),
+         url('../fonts/Cinzel-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Cinzel-Regular-webfont.svg#cinzelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
